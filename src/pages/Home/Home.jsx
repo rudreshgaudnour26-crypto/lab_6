@@ -75,22 +75,6 @@ useEffect(() => {
        
       </section>
 
-      {/* <section className={styles.section}>
-        <h2>Shop by Category</h2>
-
-        <div className={styles.categories}>
-          {categories.map((category) => (
-            <Link
-              key={category}
-              to={`/products?category=${encodeURIComponent(category)}`}
-              className={styles.category}
-            >
-              {category}
-            </Link>
-          ))}
-        </div>
-      </section> */}
-
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
           <h2>Featured Products</h2>
