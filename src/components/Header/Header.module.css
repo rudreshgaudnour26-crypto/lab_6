@@ -1,0 +1,171 @@
+
+.header {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 40px;
+
+  background-color: #131921;
+  border-bottom: 1px solid #101010;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+
+  color: #ebe1e1;
+  text-decoration: none;
+
+  margin-right: 50px;
+}
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  color: #ebe1e1;
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  transition: color 0.2s ease;
+}
+
+.cartCount {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  padding: 0 5px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: #ebe1e1;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.navLink:hover {
+  color: #007bff;
+}
+
+.navLink i {
+  font-size: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+}
+
+.logo img {
+  width: 150px;
+  height: 65px;
+  object-fit: contain;
+  display: block;
+}
+
+.search {
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+
+  width: 280px;
+  height: 38px;
+
+  border: 1px solid #d5d5d5;
+  /* border-radius: 6px; */
+
+  overflow: hidden;
+}
+
+.search input {
+  flex: 1;
+
+  height: 100%;
+
+  padding: 0 12px;
+
+  border: none;
+  outline: none;
+
+  font-size: 14px;
+}
+
+.search button {
+  width: 42px;
+  height: 100%;
+
+  border: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  color: #ffffff;
+}
+
+.search button:hover {
+  color: #007bff;
+}
+
+/* Container for the sub-header bar */
+.subHeader {
+  background-color: #232f3e; /* Amazon dark blue/grey sub-header background */
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Horizontal scrollable row for category links */
+.categories {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 8px 0;
+  
+  /* Hide scrollbar for a clean look (chrome/safari/firefox) */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.categories::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Individual category item link */
+.category {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 2px;
+  transition: outline 0.1s ease;
+}
+
+/* Hover state matching Amazon's clean focus state */
+.category:hover {
+  outline: 1px solid #ffffff;
+  color: #ffffff;
+}

@@ -1,0 +1,45 @@
+.summary {
+  background-color: #ffffff;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.summary h2 {
+  margin-top: 0;
+}
+
+.items {
+  margin: 20px 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.name {
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.item span {
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.total {
+  padding-top: 15px;
+  border-top: 1px solid #ccc;
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,47 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.5rem 0;
+}
+
+.description {
+  font-size: 1rem;
+  color: #4b5563;
+  margin: 0 0 2rem 0;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+/* .sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+} */
+
+
+.logoutButton:hover {
+  background-color: #c82333;
+}
+
+.profileContent {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.profileContent > * {
+  margin-top: 0;
+  flex: 1;
+}

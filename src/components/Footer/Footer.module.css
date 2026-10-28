@@ -1,0 +1,87 @@
+
+.footer {
+  margin-top: 50px;
+
+  background-color: #253040;
+  color: #ffffff;
+}
+
+/* Main footer content */
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 40px;
+
+  gap: 40px;
+}
+
+/* Brand */
+
+.brand {
+  max-width: 300px;
+}
+
+.brand h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.brand p {
+  margin: 0;
+
+  color: #bbbbbb;
+  line-height: 1.5;
+}
+
+/* Links */
+
+.links {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.links h3,
+.contact h3 {
+  margin: 0 0 10px;
+  font-size: 17px;
+}
+
+.links a {
+  color: #bbbbbb;
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: #ffffff;
+}
+
+/* Contact */
+
+.contact p {
+  margin: 8px 0;
+
+  color: #bbbbbb;
+}
+
+/* Bottom section */
+
+.bottom {
+  padding: 15px 40px;
+
+  text-align: center;
+
+  border-top: 1px solid #444;
+}
+
+.bottom p {
+  margin: 0;
+
+  color: #999;
+  font-size: 14px;
+}

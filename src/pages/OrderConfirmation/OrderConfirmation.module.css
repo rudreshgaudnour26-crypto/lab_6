@@ -1,0 +1,162 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.success {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.checkmark {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #28a745;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.success h1 {
+  margin-bottom: 10px;
+  color: #28a745;
+}
+
+.success p {
+  color: #555;
+}
+
+.orderId {
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.itemInfo {
+  flex: 1;
+}
+
+.itemInfo h3 {
+  margin: 0 0 8px;
+}
+
+.itemInfo p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.itemTotal {
+  font-weight: 600;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.shipping p {
+  margin: 10px 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.shopButton,
+.profileButton {
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.shopButton {
+  background-color: #007bff;
+  color: white;
+}
+
+.shopButton:hover {
+  background-color: #0056b3;
+}
+
+.profileButton {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.profileButton:hover {
+  background-color: #ddd;
+}
+
+.noOrder {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.noOrder p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .item {
+    align-items: flex-start;
+  }
+
+  .image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .shopButton,
+  .profileButton {
+    text-align: center;
+  }
+}
